@@ -9,9 +9,8 @@ class Home extends StatefulWidget {
 }
 
 class _Home extends State<Home>{
-    final List<String> subjects = ["Básico", "Intermediário", 'Avançado'];
-
   String selectedSubject = "Básico";
+    final List<String> subjects = ["Básico", "Intermediário", 'Avançado'];
 
   @override
   Widget build(BuildContext context) {
@@ -137,4 +136,5 @@ class _Home extends State<Home>{
                           Navigator.pop(context);
                         })*/
 
-            ])))]))));}}
+            ])))]))));}
+}
